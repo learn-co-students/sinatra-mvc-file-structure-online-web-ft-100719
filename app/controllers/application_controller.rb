@@ -1,3 +1,4 @@
+require 'active_record'
 class ApplicationController < Sinatra::Base
 
   configure do
@@ -8,4 +9,6 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
+
 end
+
